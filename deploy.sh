@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:rebpacquiao/rebpacquiao.github.io.git main
 
 # if you are deploying to https://rebpacquiao.github.io/manage-attendance-app
-# git push -f git@github.com:rebpacquiao/manage-attendance-app.git main:gh-pages
+# git push -f git@github.com:rebpacquiao/manage-attendance-app.git main:attendance
 
 cd -
