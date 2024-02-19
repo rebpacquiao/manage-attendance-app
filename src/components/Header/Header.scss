@@ -1,0 +1,54 @@
+#main-navigation {
+  .n-menu-item-content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .n-menu-item-content__icon {
+    color: $white;
+  }
+
+  .parent-nav {
+    color: $white;
+  }
+
+  .n-input.n-input--resizable.n-input--stateful {
+    width: 270px;
+    background-color: transparent;
+  }
+
+  .search-button {
+    color: #fff;
+  }
+
+  .n-input .n-input__input-el {
+    color: #fff;
+  }
+
+  .nav-circle {
+    background: $notification;
+  }
+}
+
+.header-section {
+  display: flex;
+  width: 100%;
+  background-color: $headerBackground;
+  align-items: center;
+  padding: 14px;
+}
+
+.navigation-right-section {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  gap: 7px;
+}
+
+.search-field {
+  width: 150px;
+}
+
+.navigation-left-section {
+  margin-right: auto;
+}

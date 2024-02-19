@@ -1,0 +1,60 @@
+.main-contaner {
+  padding: 24px;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .ellipse-container {
+    width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .announcement-data-table {
+    margin: 18px 0;
+  }
+
+  .announcement-container {
+    display: flex;
+    align-items: center;
+
+    .announcment-left {
+      margin-right: auto;
+    }
+  }
+
+  .announcement-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 550px;
+  }
+
+  .start-time {
+    display: block;
+    color: $midNeutral;
+  }
+
+  .announcement-link {
+    background-color: $green;
+    padding: 10px;
+    color: $white;
+    border-radius: 4px;
+  }
+
+  .announcement-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .announcement-left {
+    margin-right: auto;
+  }
+
+  .icons {
+    display: flex;
+  }
+}
