@@ -1,7 +1,8 @@
 const { defineConfig } = require("@vue/cli-service");
 
 module.exports = defineConfig({
-  publicPath: "/manage-attendance-app/",
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/manage-attendance-app/" : "/",
   transpileDependencies: true,
   css: {
     loaderOptions: {
